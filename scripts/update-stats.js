@@ -14,15 +14,6 @@ async function main() {
   const d = api.response.publishedfiledetails[0];
   if (d.result !== 1) throw new Error('Steam API result ' + d.result);
 
-  // Rating and comment count are only on the HTML page.
-  const html = await fetch(`https://steamcommunity.com/sharedfiles/filedetails/?id=${ID}`, {
-    headers: { 'User-Agent': 'Mozilla/5.0', Cookie: 'birthtime=0' },
-  }).then(r => r.text());
-  const stars = (html.match(/(\d)-star_large\.png/) || [])[1];
-  const ratings = (html.match(/numRatings">([\d,]+) rating/) || [])[1];
-  const comments = (html.match(/totalcount">([\d,]+)</) || [])[1];
-  if (!stars || !ratings || !comments) throw new Error('Could not parse rating/comments');
-
   const badge = (label, value, color) =>
     `![${label}](https://img.shields.io/badge/${encodeURIComponent(label.replace(/-/g, '--'))}-${encodeURIComponent(String(value).replace(/-/g, '--'))}-${color}?style=for-the-badge&logo=steam&logoColor=white)`;
   const block = [
@@ -31,8 +22,6 @@ async function main() {
     badge('Total Subscribers', fmt(d.lifetime_subscriptions), '1b8a3c'),
     badge('Unique Visitors', fmt(d.views), '2a6fb0'),
     badge('Favorites', fmt(d.favorited), 'c9a227'),
-    badge('Rating', `${stars}/5 (${ratings})`, 'c9a227'),
-    badge('Comments', comments, '6b4fa3'),
     '<!-- STATS:END -->',
   ].join('\n');
 

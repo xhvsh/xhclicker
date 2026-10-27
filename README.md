@@ -11,8 +11,6 @@ A lightweight autoclicker mod for Cookie Clicker, with a clean floating UI panel
 ![Total Subscribers](https://img.shields.io/badge/Total%20Subscribers-2%2C785-1b8a3c?style=for-the-badge&logo=steam&logoColor=white)
 ![Unique Visitors](https://img.shields.io/badge/Unique%20Visitors-4%2C485-2a6fb0?style=for-the-badge&logo=steam&logoColor=white)
 ![Favorites](https://img.shields.io/badge/Favorites-37-c9a227?style=for-the-badge&logo=steam&logoColor=white)
-![Rating](https://img.shields.io/badge/Rating-4%2F5%20(43)-c9a227?style=for-the-badge&logo=steam&logoColor=white)
-![Comments](https://img.shields.io/badge/Comments-10-6b4fa3?style=for-the-badge&logo=steam&logoColor=white)
 <!-- STATS:END -->
 
 ## Features
