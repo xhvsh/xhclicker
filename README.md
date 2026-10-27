@@ -2,6 +2,18 @@
 
 A lightweight autoclicker mod for Cookie Clicker, with a clean floating UI panel to toggle each feature on or off.
 
+![xhClicker preview](preview.png)
+
+[**Steam Workshop**](https://steamcommunity.com/sharedfiles/filedetails/?id=3738413378) · [Portfolio](https://xhvsh.github.io)
+
+## Steam Workshop stats
+
+| Subscribers | Unique visitors | Favorites | Rating | Comments |
+|:-:|:-:|:-:|:-:|:-:|
+| 2,407 | 4,485 | 37 | 4/5 (43 ratings) | 10 |
+
+<sub>Snapshot from 27 Oct 2026. Live numbers are on the Workshop page.</sub>
+
 ## Features
 
 - **Auto Click Big Cookie** - automatically clicks the big cookie
