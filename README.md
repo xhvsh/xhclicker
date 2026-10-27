@@ -2,7 +2,7 @@
 
 A lightweight autoclicker mod for Cookie Clicker, with a clean floating UI panel to toggle each feature on or off.
 
-![xhClicker preview](preview.png)
+![xhClicker preview](panel.png)
 
 ## Steam Workshop stats
 
