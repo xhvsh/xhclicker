@@ -8,11 +8,13 @@ A lightweight autoclicker mod for Cookie Clicker, with a clean floating UI panel
 
 ## Steam Workshop stats
 
-| Subscribers | Unique visitors | Favorites | Rating | Comments |
-|:-:|:-:|:-:|:-:|:-:|
-| 2,407 | 4,485 | 37 | 4/5 (43 ratings) | 10 |
+<!-- STATS:START -->
+| Subscribers | Total subscribers | Unique visitors | Favorites | Rating | Comments |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+| 2,407 | 2,785 | 4,485 | 37 | 4/5 (43 ratings) | 10 |
 
-<sub>Snapshot from 27 Oct 2026. Live numbers are on the Workshop page.</sub>
+<sub>Updated automatically on 2026-10-27. Live numbers are on the Workshop page.</sub>
+<!-- STATS:END -->
 
 ## Features
 
