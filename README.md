@@ -4,16 +4,15 @@ A lightweight autoclicker mod for Cookie Clicker, with a clean floating UI panel
 
 ![xhClicker preview](preview.png)
 
-[**Steam Workshop**](https://steamcommunity.com/sharedfiles/filedetails/?id=3738413378) · [Portfolio](https://xhvsh.github.io)
-
 ## Steam Workshop stats
 
 <!-- STATS:START -->
-| Subscribers | Total subscribers | Unique visitors | Favorites | Rating | Comments |
-|:-:|:-:|:-:|:-:|:-:|:-:|
-| 2,407 | 2,785 | 4,485 | 37 | 4/5 (43 ratings) | 10 |
-
-<sub>Updated automatically on 2026-10-27. Live numbers are on the Workshop page.</sub>
+![Subscribers](https://img.shields.io/badge/Subscribers-2%2C407-1b8a3c?style=for-the-badge&logo=steam&logoColor=white)
+![Total Subscribers](https://img.shields.io/badge/Total%20Subscribers-2%2C785-1b8a3c?style=for-the-badge&logo=steam&logoColor=white)
+![Unique Visitors](https://img.shields.io/badge/Unique%20Visitors-4%2C485-2a6fb0?style=for-the-badge&logo=steam&logoColor=white)
+![Favorites](https://img.shields.io/badge/Favorites-37-c9a227?style=for-the-badge&logo=steam&logoColor=white)
+![Rating](https://img.shields.io/badge/Rating-4%2F5%20(43)-c9a227?style=for-the-badge&logo=steam&logoColor=white)
+![Comments](https://img.shields.io/badge/Comments-10-6b4fa3?style=for-the-badge&logo=steam&logoColor=white)
 <!-- STATS:END -->
 
 ## Features

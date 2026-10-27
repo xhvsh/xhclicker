@@ -23,14 +23,16 @@ async function main() {
   const comments = (html.match(/totalcount">([\d,]+)</) || [])[1];
   if (!stars || !ratings || !comments) throw new Error('Could not parse rating/comments');
 
-  const date = new Date().toISOString().slice(0, 10);
+  const badge = (label, value, color) =>
+    `![${label}](https://img.shields.io/badge/${encodeURIComponent(label.replace(/-/g, '--'))}-${encodeURIComponent(String(value).replace(/-/g, '--'))}-${color}?style=for-the-badge&logo=steam&logoColor=white)`;
   const block = [
     '<!-- STATS:START -->',
-    '| Subscribers | Total subscribers | Unique visitors | Favorites | Rating | Comments |',
-    '|:-:|:-:|:-:|:-:|:-:|:-:|',
-    `| ${fmt(d.subscriptions)} | ${fmt(d.lifetime_subscriptions)} | ${fmt(d.views)} | ${fmt(d.favorited)} | ${stars}/5 (${ratings} ratings) | ${comments} |`,
-    '',
-    `<sub>Updated automatically on ${date}. Live numbers are on the Workshop page.</sub>`,
+    badge('Subscribers', fmt(d.subscriptions), '1b8a3c'),
+    badge('Total Subscribers', fmt(d.lifetime_subscriptions), '1b8a3c'),
+    badge('Unique Visitors', fmt(d.views), '2a6fb0'),
+    badge('Favorites', fmt(d.favorited), 'c9a227'),
+    badge('Rating', `${stars}/5 (${ratings})`, 'c9a227'),
+    badge('Comments', comments, '6b4fa3'),
     '<!-- STATS:END -->',
   ].join('\n');
 
