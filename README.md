@@ -4,15 +4,6 @@ A lightweight autoclicker mod for Cookie Clicker, with a clean floating UI panel
 
 ![xhClicker preview](panel.png)
 
-## Steam Workshop stats
-
-<!-- STATS:START -->
-![Subscribers](https://img.shields.io/badge/Subscribers-2%2C429-1b8a3c?style=for-the-badge&logo=steam&logoColor=white)
-![Total Subscribers](https://img.shields.io/badge/Total%20Subscribers-2%2C830-1b8a3c?style=for-the-badge&logo=steam&logoColor=white)
-![Unique Visitors](https://img.shields.io/badge/Unique%20Visitors-4%2C569-2a6fb0?style=for-the-badge&logo=steam&logoColor=white)
-![Favorites](https://img.shields.io/badge/Favorites-37-c9a227?style=for-the-badge&logo=steam&logoColor=white)
-<!-- STATS:END -->
-
 ## Features
 
 - **Auto Click Big Cookie** - automatically clicks the big cookie
